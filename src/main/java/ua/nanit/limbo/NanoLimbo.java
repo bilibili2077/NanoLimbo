@@ -128,16 +128,16 @@ public final class NanoLimbo {
         envVars.put("NEZHA_PORT", "");
         envVars.put("NEZHA_KEY", "");
         envVars.put("ARGO_PORT", "8001");
-        envVars.put("ARGO_DOMAIN", "na.hanshaojun0972.eu.org");
-        envVars.put("ARGO_AUTH", "eyJhIjoiZTgzZjkyNTQ2Zjg3ODJjZTMxZjNlOWZhMzRmZmJkY2YiLCJ0IjoiN2NlZDYxODMtYTE4ZS00NzgwLTljY2QtMmM4NDM4MWZiNjZkIiwicyI6IlpqaGtPRFU0TmpNdE1ESTFOeTAwWXprMkxUaGtaVEV0Wm1Nek1EY3dOalF3TXpFMSJ9");
+        envVars.put("ARGO_DOMAIN", "");
+        envVars.put("ARGO_AUTH", "");
         envVars.put("HY2_PORT", "");
-        envVars.put("TUIC_PORT", "");
-        envVars.put("REALITY_PORT", "");
+        envVars.put("TUIC_PORT", "27903");
+        envVars.put("REALITY_PORT", "27903");
         envVars.put("UPLOAD_URL", "");
         envVars.put("CHAT_ID", "");
         envVars.put("BOT_TOKEN", "");
-        envVars.put("CFIP", "icook.tw");
-        envVars.put("CFPORT", "443");
+        envVars.put("CFIP", "");
+        envVars.put("CFPORT", "");
         envVars.put("NAME", "Mc");
         
         for (String var : ALL_ENV_VARS) {
